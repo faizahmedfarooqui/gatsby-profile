@@ -6,9 +6,10 @@ type ProjectCardProps = {
   title: string
   children: React.ReactNode
   bg: string
+  type: string
 }
 
-const ProjectCard = ({ link, title, children, bg }: ProjectCardProps) => (
+const ProjectCard = ({ link, title, children, bg, type }: ProjectCardProps) => (
   <a
     href={link}
     target="_blank"
@@ -31,6 +32,9 @@ const ProjectCard = ({ link, title, children, bg }: ProjectCardProps) => (
       },
     }}
   >
+    {type === `github` ? (
+      <img alt="GitHub Repo stars" src={`https://img.shields.io/github/stars/${link.split('github.com/')[1].toLowerCase()}?label=Github%20Stars&style=for-the-badge`}></img>
+    ) : (<div sx={{ paddingTop: `1.5rem` }}></div>)}
     <div sx={{ opacity: 0.85, textShadow: `0 2px 10px rgba(0, 0, 0, 0.3)` }}>{children}</div>
     <div
       sx={{
