@@ -1,11 +1,10 @@
 {
   "private": true,
-  "name": "cara",
-  "description": "Playful and Colorful One-Page portfolio featuring Parallax effects and animations",
-  "version": "0.2.10",
-  "author": "LekoArts <hello@lekoarts.de>",
+  "name": "faizahmed",
+  "description": "This is personal portfolio repository",
+  "version": "0.0.1",
+  "author": "Faiz A. Farooqui <faizz.af@gmail.com>",
   "license": "0BSD",
-  "starter-name": "gatsby-starter-portfolio-cara",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
