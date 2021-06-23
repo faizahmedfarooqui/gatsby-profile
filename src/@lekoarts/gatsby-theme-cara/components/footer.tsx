@@ -20,7 +20,7 @@ const Footer = () => {
       </button> */}
       Copyright &copy; {new Date().getFullYear()}. All rights reserved.
       <br />
-      <Flex
+      {/* <Flex
         sx={{
           justifyContent: `center`,
           alignItems: `center`,
@@ -44,7 +44,7 @@ const Footer = () => {
         >
           LekoArts
         </Link>
-      </Flex>
+      </Flex> */}
     </Box>
   )
 }
