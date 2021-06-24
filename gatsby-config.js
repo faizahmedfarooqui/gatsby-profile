@@ -5,9 +5,9 @@ const googleAnalyticsTrackingId = process.env.GOOGLE_ANALYTICS_ID
 
 module.exports = {
   siteMetadata: {
-    siteTitle: `Faiz A. Farooqui`,
-    siteTitleAlt: `Faiz A. Farooqui`,
-    siteHeadline: `Faiz A. Farooqui`,
+    siteTitle: `Faiz Ahmed Farooqui`,
+    siteTitleAlt: `Faiz Ahmed Farooqui`,
+    siteHeadline: `Faiz Ahmed Farooqui`,
     siteUrl: `https://faizahmed.in`,
     siteDescription: `Expert in Backend & Server Side Management.`,
     siteLanguage: `en`,
@@ -32,7 +32,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Faiz A. Farooqui`,
+        name: `Faiz Ahmed Farooqui`,
         short_name: `Faiz`,
         description: `Expert in Backend & Server Side Management.`,
         start_url: `/`,
