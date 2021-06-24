@@ -11,7 +11,7 @@ module.exports = {
     siteUrl: `https://faizahmed.in`,
     siteDescription: `Expert in Backend & Server Side Management.`,
     siteLanguage: `en`,
-    siteImage: `/`,
+    siteImage: `/android-chrome-512x512.png`,
     author: `@_faizahmed`,
   },
   flags: {
