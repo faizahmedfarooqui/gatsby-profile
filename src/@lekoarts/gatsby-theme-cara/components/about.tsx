@@ -44,7 +44,7 @@ const About = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
           aria-label="Link to the theme author's website"
           href={`/Faiz_Ahmed_Farooqui_CV.pdf`}
         >
-          My resume (PDF 45KB)
+          My resume (PDF 42KB)
         </Link>
       </Inner>
     </Content>
