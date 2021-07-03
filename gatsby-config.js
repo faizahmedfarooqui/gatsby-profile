@@ -11,8 +11,8 @@ module.exports = {
     siteUrl: `https://faizahmed.in`,
     siteDescription: `Expert in Backend & Server Side Management.`,
     siteLanguage: `en`,
-    siteImage: `/android-chrome-512x512.png`,
-    author: `@_faizahmed`,
+    siteImage: `/banner.png`,
+    author: `@_faizahmed`
   },
   flags: {
     FAST_DEV: true,
@@ -39,16 +39,44 @@ module.exports = {
         background_color: `#141821`,
         theme_color: `#f6ad55`,
         display: `standalone`,
-        icons: [{
-          "src": "/android-chrome-192x192.png",
-          "sizes": "192x192",
-          "type": "image/png"
-        },
-        {
-          "src": "/android-chrome-512x512.png",
-          "sizes": "512x512",
-          "type": "image/png"
-        }],
+        icons: [
+          {
+            "src": "/android-icon-36x36.png",
+            "sizes": "36x36",
+            "type": "image/png",
+            "density": "0.75"
+          },
+          {
+            "src": "/android-icon-48x48.png",
+            "sizes": "48x48",
+            "type": "image/png",
+            "density": "1.0"
+          },
+          {
+            "src": "/android-icon-72x72.png",
+            "sizes": "72x72",
+            "type": "image/png",
+            "density": "1.5"
+          },
+          {
+            "src": "/android-icon-96x96.png",
+            "sizes": "96x96",
+            "type": "image/png",
+            "density": "2.0"
+          },
+          {
+            "src": "/android-icon-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png",
+            "density": "3.0"
+          },
+          {
+            "src": "/android-icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "density": "4.0"
+          }
+        ],
       },
     },
     `gatsby-plugin-offline`,
