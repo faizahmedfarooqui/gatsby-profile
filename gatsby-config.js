@@ -9,7 +9,7 @@ module.exports = {
     siteTitleAlt: `Faiz Ahmed Farooqui`,
     siteHeadline: `Faiz Ahmed Farooqui`,
     siteUrl: `https://faizahmed.in`,
-    siteDescription: `Expert in Backend & Server Side Management.`,
+    siteDescription: `Software Engineer from Bengaluru, India.`,
     siteLanguage: `en`,
     siteImage: `/banner.png`,
     author: `@_faizahmed`
