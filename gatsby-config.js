@@ -12,7 +12,7 @@ module.exports = {
     siteDescription: `Software Engineer from Bengaluru, India.`,
     siteLanguage: `en`,
     siteImage: `/banner.png`,
-    author: `@_faizahmed`
+    author: `@faizahmedfarooqui`
   },
   flags: {
     FAST_DEV: true,
@@ -30,11 +30,21 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-google-tagmanager`,
+      options: {
+        id: 'G-ZJ0P98JRXH',
+        includeInDevelopment: true,
+        defaultDataLayer: {
+          platform: 'gatsby',
+        },
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Faiz Ahmed Farooqui`,
         short_name: `Faiz`,
-        description: `Expert in Backend & Server Side Management.`,
+        description: `Tech Lead (Backend) from Bengaluru, Karnataka, India.`,
         start_url: `/`,
         background_color: `#141821`,
         theme_color: `#f6ad55`,
